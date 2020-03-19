@@ -398,18 +398,12 @@ kbd {
 }
 .comments,
 article,
-.feature-image .post-content,
-.feature-image footer,
-.posts .post-teaser,
 .site-footer {
   padding: 3% 23%;
 }
 @media (max-width: 2000px) {
   .comments,
   article,
-  .feature-image .post-content,
-  .feature-image footer,
-  .posts .post-teaser,
   .site-footer {
     padding: 3% 18%;
   }
@@ -417,9 +411,6 @@ article,
 @media (max-width: 1400px) {
   .comments,
   article,
-  .feature-image .post-content,
-  .feature-image footer,
-  .posts .post-teaser,
   .site-footer {
     padding: 3% 9%;
   }
@@ -427,9 +418,6 @@ article,
 @media (max-width: 1000px) {
   .comments,
   article,
-  .feature-image .post-content,
-  .feature-image footer,
-  .posts .post-teaser,
   .site-footer {
     padding: 3% 6%;
   }
@@ -437,9 +425,6 @@ article,
 @media (max-width: 576px) {
   .comments,
   article,
-  .feature-image .post-content,
-  .feature-image footer,
-  .posts .post-teaser,
   .site-footer {
     padding: 3% 4%;
   }
@@ -522,74 +507,7 @@ footer a.button {
 header h1 {
   margin: 0;
 }
-.meta,
-#post-nav p {
-  color: #595959;
-  letter-spacing: 0.1em;
-  margin: 0;
-  text-transform: uppercase;
-}
-.post-info {
-  border-radius: 1em;
-  padding-right: 0.5em;
-  display: inline-flex;
-}
-.post-info a {
-  display: flex;
-  align-items: center;
-}
-.post-info a img {
-  height: auto;
-}
-.post-info img {
-  border-radius: 1em;
-  padding: 0px;
-  width: 1.5em;
-  height: 100%;
-  margin-right: 0.5em;
-}
-.feature-image {
-  padding: 0;
-}
-.feature-image .post-link {
-  color: #fff;
-}
-.feature-image header {
-  color: #fff;
-  margin-bottom: 0;
-  padding: 3.6% 9%;
-}
-.feature-image header .meta,
-.feature-image header #post-nav p,
-#post-nav .feature-image header p {
-  color: rgba(255, 255, 255, 0.7);
-}
-.feature-image .post-content {
-  padding-bottom: 0;
-}
-.feature-image footer {
-  padding-top: 0;
-}
-@media screen and (max-width: 768px) {
-  .feature-image header {
-    padding: 13.5% 4%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .feature-image header {
-    background-size: 120% auto;
-  }
-}
-@media screen and (max-width: 768px) {
-  .feature-image header {
-    background-size: 200% auto;
-  }
-}
-@media screen and (max-width: 576px) {
-  .feature-image header {
-    background-size: 400% auto;
-  }
-}
+
 .call-out {
   font-size: 1.2em;
   text-align: center;
@@ -629,21 +547,6 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media screen and (min-width: 1024px) {
-  #main {
-    background-size: 120% auto;
-  }
-}
-@media screen and (max-width: 1024px) {
-  #main {
-    background-size: 220% auto;
-  }
-}
-@media screen and (max-width: 576px) {
-  #main {
-    background-size: 400% auto;
-  }
 }
 .call-out {
   padding: 6% 9%;
